@@ -6,7 +6,7 @@ from babel.numbers import format_currency
 
 with st.sidebar:
     
-    #st.image('download.jpeg')
+    st.image('https://raw.githubusercontent.com/fiyyahzzhr/Proyek-Analisis-Data-Bike-Sharing-Data/7eadc70d03d29e756d39c176a792fac46b4675c6/dashboard/download.jpeg')
     st.title('Rental Bikes')
     name = st.text_input(label='Nama', value='')
     st.write('Halo ', name, ' Selamat Datang di Rental Bikes')
@@ -15,8 +15,8 @@ with st.sidebar:
 st.header('Dicoding Rental Bike')
 
 #main_df = pd.read_csv('main_data.csv')
-day_df = pd.read_csv('day.csv')
-hour_df = pd.read_csv('hour.csv')
+day_df = pd.read_csv('https://raw.githubusercontent.com/fiyyahzzhr/Proyek-Analisis-Data-Bike-Sharing-Data/main/dashboard/day.csv')
+hour_df = pd.read_csv('https://raw.githubusercontent.com/fiyyahzzhr/Proyek-Analisis-Data-Bike-Sharing-Data/main/dashboard/hour.csv')
 
 
 st.subheader('Penyewaan Sepeda Per Hari')
