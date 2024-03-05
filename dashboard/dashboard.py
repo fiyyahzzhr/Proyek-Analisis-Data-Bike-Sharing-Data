@@ -6,8 +6,10 @@ from babel.numbers import format_currency
 
 with st.sidebar:
     
-    st.image('download.jpeg')
-    st.title('Rental Bike')
+    #st.image('download.jpeg')
+    st.title('Rental Bikes')
+    name = st.text_input(label='Nama', value='')
+    st.write('Halo ', name, ' Selamat Datang di Rental Bikes')
 
 
 st.header('Dicoding Rental Bike')
